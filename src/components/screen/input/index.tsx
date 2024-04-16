@@ -4,7 +4,7 @@ import { Container } from './styles';
 export const Input: React.FunctionComponent<TextInputProps> = ({ ...otherProps }: PropsWithChildren<TextInputProps>) => {
   return (
     <Container>
-      {/* ...otherProps - frequentemente chamado de "spread" - passa todas as propriedades do TextInput para o componente TextInput da linha 14. */}
+     
       <TextInput placeholderTextColor="rgb(192, 192, 192)" {...otherProps} />
     </Container>
   );
